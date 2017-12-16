@@ -31,6 +31,7 @@ async function screenshotDOMElement(page, selector, padding = 0) {
   });
 }
 
+
 app.get('/', function(req, res) {
     var urlToScreenshot = parseUrl(req.query.url);
 
